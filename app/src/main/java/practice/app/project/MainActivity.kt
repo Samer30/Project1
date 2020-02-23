@@ -6,6 +6,8 @@ import android.view.Menu
 import android.view.MenuItem
 
 class MainActivity : AppCompatActivity() {
+    val list_tasks = arrayListOf<Task>()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
