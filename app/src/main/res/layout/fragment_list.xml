@@ -6,8 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".ListFragment" >
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="67dp"
+        android:layout_height="58dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:background="@drawable/add2"
+        android:padding="20dp" />
+
     <ListView
         android:id="@+id/listView_tasks"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+    </ListView>
 </FrameLayout>

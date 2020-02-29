@@ -11,4 +11,13 @@
         android:layout_height="match_parent"
         android:ems="10"
         android:inputType="textPersonName" />
+
+    <Button
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/button"
+        android:layout_width="67dp"
+        android:layout_height="58dp"
+        android:background="@drawable/add4" />
 </FrameLayout>
